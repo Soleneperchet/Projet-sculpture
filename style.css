@@ -1,0 +1,11 @@
+/*
+Theme Name: Sculpture
+Theme URI: 
+Author: Soso
+Author URI: .fr
+Description: 
+Requires at least: WordPress 5.0
+Version: 1.0
+*/
+
+.img-creations img{width: 15%; display: flex;}
