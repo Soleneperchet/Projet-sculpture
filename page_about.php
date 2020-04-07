@@ -47,8 +47,12 @@ get_footer();
 
      <h1><?php the_field('titre_header'); ?></h1>
 
-
-
+<div class="bloc">
+     <p><?php the_field('texte_partie_about_1'); ?></p>
+     <p><?php the_field('texte_partie_about_2'); ?></p>
+     <p><?php the_field('texte_partie_about_3'); ?></p>
+     <p><?php the_field('texte_partie_about_4'); ?></p>
+</div>
 
 
 

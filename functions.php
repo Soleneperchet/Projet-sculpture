@@ -26,5 +26,9 @@ function wpc_customize_register($wp_customize) {
 }
 
 
-
+// enregistrement de ma seconde navigation
+function register_my_menu() {
+	register_nav_menu('menu-burger',__( 'Menu Burger' )); // mon nouveau menu s'appellera "Menu Burger" dans mon back-office
+	}
+	add_action( 'init', 'register_my_menu' );
 
