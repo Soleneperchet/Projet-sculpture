@@ -10,11 +10,11 @@
 <body>
 
 
-<!-- <div class="menu">
+<div class="menu">
 <?php wp_nav_menu( array( 'theme_location' => 'menu-burger' ) ); ?>
 </div>
 
-</div> -->
+</div>
 
 
 
