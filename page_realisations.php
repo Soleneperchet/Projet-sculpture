@@ -1,4 +1,8 @@
-
+<?php
+    /*
+    Template Name: Collections
+    */
+?>
 
 
 <!DOCTYPE html>
@@ -49,7 +53,7 @@ get_footer();
 
      
 
-     <?php
+     <!-- <?php
                      // check if the repeater field has rows of data
                      if( have_rows('galerie_images') ):
 
@@ -71,7 +75,7 @@ get_footer();
 
                      endif;
 
-                 ?>
+                 ?> -->
 
 
 
