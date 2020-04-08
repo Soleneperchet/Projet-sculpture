@@ -45,8 +45,46 @@ get_footer();
 
 <!-- PARTIE ABOUT -->
 
+<div class="container-fluid">
 
+<div class="menu-comics ">
+                    <?php wp_nav_menu( array( 'theme_location' => 'menu-sculpture' ) ); ?>
+				</div>
+				
 
+				<!-- <?php if(have_posts()) : ?>
+					<?php query_posts($query_string . '&cat=-6'); ?> -->
+
+				
+
+        <?php
+                     // check if the repeater field has rows of data
+                     if( have_rows('galerie_images') ):
+
+						// loop through the rows of data
+						while ( have_rows('galerie_images') ) : the_row();
+						$images = get_sub_field('images_creations');
+					   
+						echo "<div class='imgreal'>";
+						echo "<div class='img-creations'>";
+						echo " <img src='".$images."'/>";
+						echo "</div>";
+						echo "</div>";
+
+						endwhile;
+
+					else :
+
+						// no rows found
+
+					endif;
+
+					
+
+				?>
+<?php endif;?>
+
+</div>
      
 
 

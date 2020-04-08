@@ -14,11 +14,10 @@
 
 <body>
 
-    <header>
 
-        <div class="container-fluid p-0">
+        <div class="container-fluid container-header p-0">
 
-            <div class="col-lg-5 col-xl-5 p-0">
+            <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 p-0">
 
                 <div class="menu-header">
                     <?php wp_nav_menu( array( 'theme_location' => 'menu-burger' ) ); ?>
@@ -38,13 +37,13 @@
 
             </div>
 
-                <div class="col-xl-6 p-0 vh-100 d-flex justify-content-center align-items-center">
+                <div class="col-12 col-sm-12 col-md-6 col-xl-6 p-0 d-flex justify-content-center align-items-center">
                     <div class="bloc-flex-text  ">
                         <div class="container-text-about row text-left">
-                            <p class="text-about-hello"><?php the_field('texte_partie_about_1'); ?></p>
-                            <p class="text-about"><?php the_field('texte_partie_about_2'); ?></p>
-                            <p class="text-about"><?php the_field('texte_partie_about_3'); ?></p>
-                            <p class="text-about"><?php the_field('texte_partie_about_4'); ?></p>
+                            <p class="text-about-hello mb-4"><?php the_field('texte_partie_about_1'); ?></p>
+                            <p class="text-about mb-4"><?php the_field('texte_partie_about_2'); ?></p>
+                            <p class="text-about mb-4"><?php the_field('texte_partie_about_3'); ?></p>
+                            <p class="text-about mb-4"><?php the_field('texte_partie_about_4'); ?></p>
                             <div class="container-black">
                                 <p class="text-about-case"><?php the_field('bloc_texte_about'); ?></p>
                             </div>
@@ -53,50 +52,6 @@
                 </div>
             
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!-- <?php
-                     // check if the repeater field has rows of data
-                     if( have_rows('galerie_images') ):
-
-                         // loop through the rows of data
-                         while ( have_rows('galerie_images') ) : the_row();
-                         $images = get_sub_field('images_creations');
-                        
-                         echo "<div class='imgreal'>";
-                         echo "<div class='img-creations'>";
-                         echo " <img src='".$images."'/>";
-                         echo "</div>";
-                         echo "</div>";
-
-                         endwhile;
-
-                     else :
-
-                         // no rows found
-
-                     endif;
-
-                 ?> -->
-
-
-    </header>
 
 
 

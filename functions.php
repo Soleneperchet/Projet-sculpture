@@ -32,3 +32,7 @@ function register_my_menu() {
 	}
 	add_action( 'init', 'register_my_menu' );
 
+	function register_my_menu_sculpture() {
+		register_nav_menu('menu-sculpture',__( 'Menu Sculpture' )); // mon nouveau menu s'appellera "Menu Sculpture" dans mon back-office
+		}
+		add_action( 'init', 'register_my_menu_sculpture' );
