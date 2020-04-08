@@ -8,14 +8,42 @@ Requires at least: WordPress 5.0
 Version: 1.0
 */
 
-.img-creations img{width: 15%; }
+body{margin: 0;}
+
+/* HEADER ACCUEIL */
+
+
+
+/* FIN HEADER ACCUEIL */
+
+
+/* HEADER COLLECTIONS */
+
+/* FIN HEADER COLLECTIONS */
+
+
+/* HEADER ABOUT */
+.container-about{width: 100%; display: flex;}
+
 li{list-style: none;}
 
+
+
+.container-text-about p{display: flex;  width: 50%; text-align: left;}
+
+
+header{height: 100vh; } 
+
+
+.menu{position: absolute;}
+
+.img-header-about img{width: 100%; max-width: 100%; height: 100vh;}
+
+
+/* FIN HEADER ABOUT */
+
+
+
+/* GALERIE */
+.img-creations img{width: 15%; }
 .imgreal{display: flex; justify-content: space-between;}
-
-.bloc{display: flex; align-items: flex-end; flex-direction: column; width: 50%;}
-
-.row{display: flex;}
-
-.contenu-header-about img{height: 100vh; }
-

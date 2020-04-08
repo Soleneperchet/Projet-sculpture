@@ -44,59 +44,7 @@ get_footer();
 
 <!-- PARTIE ABOUT -->
 
-<div class="container-fluid">
 
-	
-
-<div class="contenu-header-about">
-		<?php 
-$image = get_field('image_header_about');
-$size = 'full'; // (thumbnail, medium, large, full or custom size)
-if( $image ) {
-    echo wp_get_attachment_image( $image, $size );
-}
-
-?>
-</div>
-
-
-<div class="bloc">
-     <p><?php the_field('texte_partie_about_1'); ?></p>
-     <p><?php the_field('texte_partie_about_2'); ?></p>
-     <p><?php the_field('texte_partie_about_3'); ?></p>
-     <p><?php the_field('texte_partie_about_4'); ?></p>
-</div>
-
-
-<p><?php the_field('bloc_texte_about'); ?></p>
-		
-
-</div>
-
-
-<?php
-                     // check if the repeater field has rows of data
-                     if( have_rows('galerie_images') ):
-
-                         // loop through the rows of data
-                         while ( have_rows('galerie_images') ) : the_row();
-                         $images = get_sub_field('images_creations');
-                        
-                         echo "<div class='imgreal'>";
-                         echo "<div class='img-creations'>";
-                         echo " <img src='".$images."'/>";
-                         echo "</div>";
-                         echo "</div>";
-
-                         endwhile;
-
-                     else :
-
-                         // no rows found
-
-                     endif;
-
-                 ?>
 
      
 
