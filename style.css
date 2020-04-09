@@ -57,7 +57,7 @@ li{ margin-right: 25%; font-size: 14px; font-family: 'Poppins', sans-serif; font
 
 .img-header-about img{height: 100vh; max-width: 100%;}
 
-
+html{margin-top: 0;}
 
 .container-black{background-color: black; padding-left: 16%; padding-right: 16%;padding-top: 8%; padding-bottom: 8%;}
 
@@ -68,7 +68,6 @@ li{ margin-right: 25%; font-size: 14px; font-family: 'Poppins', sans-serif; font
 /* GALERIE */
 .img-creations img{width: 15%; }
 .imgreal{display: flex; justify-content: space-between;}
-
 
 
 

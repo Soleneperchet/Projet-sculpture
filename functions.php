@@ -36,3 +36,11 @@ function register_my_menu() {
 		register_nav_menu('menu-sculpture',__( 'Menu Sculpture' )); // mon nouveau menu s'appellera "Menu Sculpture" dans mon back-office
 		}
 		add_action( 'init', 'register_my_menu_sculpture' );
+
+
+// 		add_action('wp_enqueue_scripts', 'gkp_insert_css_in_head');
+// function gkp_insert_css_in_head() {
+//     // On ajoute le css general du theme
+//     wp_register_style('style', get_bloginfo( 'stylesheet_url' ),'',false,'screen');
+//     wp_enqueue_style( 'style' );
+// }

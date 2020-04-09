@@ -3,8 +3,8 @@
  <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	 <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
-     <title>Document</title>
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     <title>Collection</title>
      <link rel="stylesheet" href="wp-content/themes/sculpture/style.css">
  </head>
 <body>
@@ -16,6 +16,35 @@
 
 </div>
 
+
+
+<div class="container-fluid container-header p-0">
+
+            <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 p-0">
+
+                <div class="menu-header">
+                    <?php wp_nav_menu( array( 'theme_location' => 'menu-burger' ) ); ?>
+                </div>
+
+
+                <div class="img-header-about-real">
+                    <?php 
+                        $image = get_field('image_header_realisation');
+                        $size = 'full'; // (thumbnail, medium, large, full or custom size)
+                        if( $image ) {
+                            echo wp_get_attachment_image( $image, $size );
+                        }
+
+                        ?>
+                </div>
+
+            </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-xl-6 p-0 d-flex justify-content-center align-items-center">
+                <h1><?php the_field('titre_header'); ?></h1>
+                </div>
+            
+        </div>
 
 
 
