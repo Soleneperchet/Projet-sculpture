@@ -19,7 +19,7 @@ li{  font-size: 14px; font-family: 'Poppins', sans-serif; font-weight: 600; }
 .menu-item a:hover{ color: black !important; }
 .menu-item a{ padding-left: 39px; padding-right: 39px; }
 .menu-item:hover{border-bottom: 2px solid black; padding-bottom: 16px;}
-#menu-menu-sculptures{display: flex; justify-content: center; width: 100%;  }
+#menu-menu-sculptures{display: flex; justify-content: center; width: 99%;  }
 
 /* ACCUEIL */
 /* HEADER ACCUEIL */
@@ -33,11 +33,11 @@ li{  font-size: 14px; font-family: 'Poppins', sans-serif; font-weight: 600; }
 
 /* TITRES & TEXTES */
 .bloc-text{width: 60%;}
-.text-about{font-size: 16px; font-family: 'Poppins', sans-serif; font-weight: 400; color: grey;}
+.text-about{font-size: 16px; font-family: 'Poppins', sans-serif; font-weight: 400; color: grey;margin-bottom: 39px;}
 .text-about-hello{font-size: 24px; font-family: 'Poppins', sans-serif; font-weight: 400;}
-.text-about-case{font-size: 39px; color: white; font-weight: bold; font-style: italic;text-align: center;}
-.container-text-about{line-height: 215%;}
-.container-black{background-color: black; padding-left: 16%; padding-right: 16%;padding-top: 8%; padding-bottom: 8%;}
+.text-about-case{font-size: 39px; color: white; font-family: 'Pattaya', sans-serif; font-weight: 500; text-align: center;}
+.container-text-about{line-height: 215%; margin-top: 33px;}
+.container-black{background-color: black; padding-left: 100px; padding-right: 100px;padding-top: 50px; padding-bottom: 50px;}
 
 h1:before {
     margin-left:-20.4%;
@@ -56,6 +56,11 @@ h1:before {
 /* HEADER COLLECTIONS */
 /* TITRES & TEXTES */
 .title-header-realisation{font-size: 42px; font-family: 'Poppins', sans-serif; font-weight: 500;  }
+
+
+
+
+
 
 /* FIN COLLECTIONS */
 
@@ -131,10 +136,12 @@ h1:before{
 
  
     .container-header{display: flex; flex-direction: row;}
+    
 }
 
 
 @media (min-width: 1200px) { 
     .container-header{display: flex; flex-direction: row;}
+
     
 }
