@@ -56,7 +56,9 @@ get_footer();
 
 
 
-     
+<div class="menu-menu-sculptures-container text-uppercase mt-5">
+                    <?php wp_nav_menu( array( 'theme_location' => 'menu-sculpture' ) ); ?>
+				</div>
 
      <!-- <?php
                      // check if the repeater field has rows of data

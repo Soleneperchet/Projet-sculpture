@@ -47,7 +47,7 @@ get_footer();
 
 <div class="container-fluid">
 
-<div class="menu-comics ">
+<div class="menu-comics text-uppercase mt-5">
                     <?php wp_nav_menu( array( 'theme_location' => 'menu-sculpture' ) ); ?>
 				</div>
 				

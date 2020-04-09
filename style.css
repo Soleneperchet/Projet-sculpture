@@ -8,60 +8,81 @@ Requires at least: WordPress 5.0
 Version: 1.0
 */
 
-
-
 body{margin: 0; padding: 0;}
 
+/* MENU  */
+.menu{position: absolute;}
+ul{list-style: none; display: flex; flex-direction: row;}
+li{  font-size: 14px; font-family: 'Poppins', sans-serif; font-weight: 600; }
 
+.menu-item a{ text-decoration: none; color: #696970;}
+.menu-item a:hover{ color: black !important; }
+.menu-item a{ padding-left: 39px; padding-right: 39px; }
+.menu-item:hover{border-bottom: 2px solid black; padding-bottom: 16px;}
+#menu-menu-sculptures{display: flex; justify-content: center; width: 100%;  }
+
+/* ACCUEIL */
 /* HEADER ACCUEIL */
 
-
-
-/* FIN HEADER ACCUEIL */
-
-
-/* HEADER COLLECTIONS */
-
-/* FIN HEADER COLLECTIONS */
-
+/* FIN ACCUEIL */
 
 
 
 /* ABOUT  */
 /* HEADER ABOUT */
-/* .container-about{width: 100%; display: flex; flex-direction: row;} */
 
-/* MENU  */
-ul{list-style: none; display: flex; flex-direction: row;}
-li{ margin-right: 25%; font-size: 14px; font-family: 'Poppins', sans-serif; font-weight: 900;}
-
-
-
-
-.bloc-flex-text{width: 60%;}
-
-.container-text-about{line-height: 215%;}
+/* TITRES & TEXTES */
+.bloc-text{width: 60%;}
 .text-about{font-size: 16px; font-family: 'Poppins', sans-serif; font-weight: 400; color: grey;}
 .text-about-hello{font-size: 24px; font-family: 'Poppins', sans-serif; font-weight: 400;}
 .text-about-case{font-size: 39px; color: white; font-weight: bold; font-style: italic;text-align: center;}
-
-.menu{position: absolute;}
-
-.img-header-about img, .img-header-about-real img{height: 100vh; max-width: 100%;}
-
-.mb-5-title-real{margin-bottom: 5%; }
-.pl-5-title-real{padding-left: 7%; }
-
-
+.container-text-about{line-height: 215%;}
 .container-black{background-color: black; padding-left: 16%; padding-right: 16%;padding-top: 8%; padding-bottom: 8%;}
 
-/* FIN HEADER ABOUT */
+h1:before {
+    margin-left:-20.4%;
+    margin-top: -12px;
+    border-top:2px solid #d4e4e4;
+  }
 
+/* MARGIN & PADDING */
+.mb-5-title-real{margin-bottom: 16%; }
+.pl-5-title-real{padding-left: 19%; }
+
+/* FIN ABOUT */
+
+
+/* COLLECTIONS */
+/* HEADER COLLECTIONS */
+/* TITRES & TEXTES */
+.title-header-realisation{font-size: 42px; font-family: 'Poppins', sans-serif; font-weight: 500;  }
+
+/* FIN COLLECTIONS */
+
+
+/* IMAGES HEADER */
+.img-header-about img, .img-header-about-real img{height: 100vh; max-width: 100%;}
 
 
 /* GALERIE */
 .img-creations img{width: 15%; }
 .imgreal{display: flex; justify-content: space-between;}
+
+
+h1:before{
+  content:'';
+  position:absolute;
+  width:90px;
+}
+
+
+
+
+
+
+
+
+
 
 
 

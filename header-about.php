@@ -38,7 +38,7 @@
             </div>
 
                 <div class="col-12 col-sm-12 col-md-6 col-xl-6 p-0 d-flex justify-content-center align-items-center">
-                    <div class="bloc-flex-text  ">
+                    <div class="bloc-text  ">
                         <div class="container-text-about row text-left">
                             <p class="text-about-hello mb-4"><?php the_field('texte_partie_about_1'); ?></p>
                             <p class="text-about mb-4"><?php the_field('texte_partie_about_2'); ?></p>
