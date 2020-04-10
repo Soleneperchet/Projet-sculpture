@@ -53,12 +53,14 @@ get_footer();
 				</div>
 				
 
-				<!-- <?php if(have_posts()) : ?>
-					<?php query_posts($query_string . '&cat=-6'); ?> -->
-
 				
+				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+
+				<article class="post">
 
         <?php
+
+
                      // check if the repeater field has rows of data
                      if( have_rows('galerie_images') ):
 
@@ -80,10 +82,11 @@ get_footer();
 
 					endif;
 
-					
-
 				?>
-<?php endif;?>
+</article>
+
+<?php endwhile;	?>
+	<?php endif; ?>
 
 </div>
      
