@@ -15,15 +15,14 @@
 
 <div class="container-fluid container-header p-0">
 
-            <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 p-0">
-
-                <div class="menu-header">
+                 <div class="menu-header">
                     <?php wp_nav_menu( array( 'theme_location' => 'menu-burger' ) ); ?>
                 </div>
 
 
-                <div class="img-header-about">
-                    <?php 
+                <div class=" col-11 img-header-accueil vh-100 d-flex align-items-end justify-content-center p-0">
+                   
+                   <?php 
                         $image = get_field('image_header_accueil');
                         $size = 'full'; // (thumbnail, medium, large, full or custom size)
                         if( $image ) {
@@ -31,9 +30,29 @@
                         }
 
                         ?>
-                </div>
+                        <div class="text-header-absolute">
+                        <h1><?php the_field('titre_header'); ?></h1>
+                        </div>
+                       </div> 
+              
 
-            </div>
+       
+
+            <div class="container-fluid d-flex justify-content-end p-0">
+            
+                <div class="logo-helmet bg-dark-logo text-center">
+                <?php 
+                        $image = get_field('logo_helmet');
+                        $size = 'full'; // (thumbnail, medium, large, full or custom size)
+                        if( $image ) {
+                            echo wp_get_attachment_image( $image, $size );
+                        }
+
+                        ?>
+   
+    </div>
+
+</div>
 
                
             

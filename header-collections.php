@@ -16,10 +16,6 @@
 <body>
 
 
-
-
-
-
     <div class="container-fluid container-header p-0">
 
 
@@ -46,7 +42,7 @@
     </div>
 
     <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 d-flex justify-content-start align-items-end ">
-        <h1 class="title-header-realisation mb-5-title-real pl-5-title-real"><?php the_field('titre_header'); ?></h1>
+        <h2 class="title-header-realisation mb-5-title-real pl-5-title-real"><?php the_field('titre_header'); ?></h2>
     </div>
 
     </div>

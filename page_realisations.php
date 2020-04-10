@@ -18,7 +18,7 @@
      <link rel="stylesheet" href="wp-content/themes/sculpture/style.css">
  </head>
  <body>
-<?php if(is_page(59)) { get_header('collections'); } else { get_header(); } wp_head(); ?>
+<?php if(is_page(59)) { get_header('collections'); } else { get_header(); } ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
