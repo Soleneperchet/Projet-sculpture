@@ -84,8 +84,8 @@ h2:before{
 }
 
 
-.img-header-accueil img{height: 66%; width: 81%;}
-.img-header-accueil{position: absolute;}
+.img-header-accueil img{height: 81%; }
+.img-header-accueil{position: absolute;  left: 383px;}
 .bg-dark-logo{background-color: black; padding-top: 85px; padding-left: 210px; padding-bottom: 165px;}
 .bg-dark-logo img{width: 70%; height: 100%;}
 
@@ -96,10 +96,38 @@ h2:before{
 
 
 
+ 
+ .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
 
-
-
-
+ .carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 56px;
+    height: 2px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: black;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 0;
+    transition: opacity .6s ease;
+}
 
 
 
