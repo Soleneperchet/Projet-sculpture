@@ -13,6 +13,7 @@
 </head>
 
 <body>
+  <header>
 
 
   <!-- <div class="container-fluid container-header p-0">
@@ -63,14 +64,14 @@
 
 
 
-  <div class="container-fluid container-header p-0">
+  <div class="container-fluid container-header p-0 vh-100">
     <!-- <div class="container">
     <div class="row"> -->
 
 
 
 
-    <div class="col-12 col-sm-12 col-md-6 col-lg-11 col-xl-11 w-25 img-header-accueil vh-100 d-flex align-items-end  p-0">
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 img-header-accueil vh-100 d-flex align-items-end  p-0">
 
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -142,11 +143,9 @@
     </div>
 
 
-
-
                   <div class="w-100 d-flex justify-content-end p-0">
 
-                    <div class="logo-helmet bg-dark-logo text-center img-fluid">
+                    <div class="logo-helmet bg-dark-logo text-center img-fluid h-50">
                       <?php 
                     $image = get_field('logo_helmet');
                     $size = 'full'; // (thumbnail, medium, large, full or custom size)
@@ -158,7 +157,7 @@
 
                     </div>
 
-                    <div class="menu vh-100 d-flex align-items-start p-0">
+                    <div class="menu d-flex align-items-start p-0">
                       <?php wp_nav_menu( array( 'theme_location' => 'menu-burger' ) ); ?>
                     </div>
                   </div>
@@ -168,6 +167,12 @@
     <!-- </div>
 </div> -->
   </div>
+
+
+                  </header>
+ 
+
+
 
 
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
