@@ -12,9 +12,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,900;1,400&display=swap"
-    rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+  
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
   <title>Document</title>
   <link rel="stylesheet" href="wp-content/themes/sculpture/style.css">
 </head>
@@ -100,13 +100,12 @@
 
 
   <div class="container-fluid">
-    <!-- <div class="container">
-    <div class="row"> -->
+    
 
 <div class="d-flex">
 
         <div class="col-xl-8">
-                        <div class="casques-about d-flex justify-content-center">
+                        <div class="casques-about d-flex justify-content-center mb-5">
 
                           <?php 
                                           $image = get_field('image_casque_partie_about');
@@ -117,9 +116,9 @@
 
                                           ?>
                         </div>
-                        <div class="bloc-text-about-accueil">
+                        <div class="bloc-text-about-accueil ">
 
-                        <h2 class="title-about-acc text-left "><?php the_field('titre_partie_about_accueil'); ?></h2>
+                        <h2 class="title-about-acc text-left mb-5"><?php the_field('titre_partie_about_accueil'); ?></h2>
           <p class="text-about-acc text-right "><?php the_field('texte_partie_about_accueil'); ?></p>
           <p class="text-about-acc text-right "><?php the_field('texte_partie_about_accueil_02'); ?></p>
           </div>
@@ -138,8 +137,7 @@
                     </div>
             </div>
             </div>
-        <!-- </div>
-      </div> -->
+        
   </div>
 
 

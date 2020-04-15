@@ -20,6 +20,7 @@ li{font-size: 14px; font-family: 'Poppins', sans-serif; font-weight: 600; }
 .menu-item a{ text-decoration: none; color: #696970;}
 .menu-item a:hover{ color: black !important; }
 .menu-item a{ padding-left: 39px; padding-right: 39px; }
+.menu-item{border-bottom: 2px solid transparent; padding-bottom: 16px;}
 .menu-item:hover{border-bottom: 2px solid black; padding-bottom: 16px;}
 #menu-menu-sculptures{display: flex; justify-content: center; width: 99%; position: relative; }
 .menu{width: 99%; padding-top: 63px;}
@@ -60,7 +61,7 @@ li{font-size: 14px; font-family: 'Poppins', sans-serif; font-weight: 600; }
 /* HEADER COLLECTIONS */
 /* TITRES & TEXTES */
 .title-header-realisation{font-size: 41px; font-family: 'Poppins', sans-serif; font-weight: 500;  }
-h2:before{ content:''; position:absolute; width:90px; margin-left:-20.4%; margin-top: -12px; border-top:2px solid #d4e4e4;}
+.title-header-realisation:before{ content:''; position:absolute; width:90px; margin-left:-20.4%; margin-top: -12px; border-top:2px solid #d4e4e4;}
 
 
 
@@ -138,8 +139,8 @@ h2:before{ content:''; position:absolute; width:90px; margin-left:-20.4%; margin
 .casques-about{padding-left: 4rem;}
 
 .bloc-text-about-accueil{padding-left: 7.5rem;padding-right: 3.5rem;}
-.text-about-acc{font-size: 24px; font-family: 'Poppins', sans-serif;}
-.title-about-acc{font-size: 72px; font-family: 'Poppins', sans-serif; font-weight:bold;}
+.text-about-acc{font-size: 23px; color: gray;}
+.title-about-acc{font-size: 54px; font-family: 'Poppins', sans-serif; font-weight:bold;}
 
 /**********************MEDIA QUERIES**********************/
 
